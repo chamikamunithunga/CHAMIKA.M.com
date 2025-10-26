@@ -620,22 +620,25 @@ const AnimatedAbout = () => {
                 description: 'Recognized for leadership and technical excellence in the developer community',
                 icon: '🌟',
                 gradient: 'linear-gradient(135deg, #0078D4, #1E88E5, #42A5F5)',
-                year: '2024'
+                year: '2024',
+                image: '/imgs/mlsa.png'
               },
               {
-                title: 'GitHub Campus Expert',
-                description: 'Leading technology training and community building on campus',
+                title: 'HP LIFE Ambassador',
+                description: 'Leading technology training and community building on HP',
                 icon: '⭐',
                 gradient: 'linear-gradient(135deg, #181717, #2F1E1E, #423B39)',
-                year: '2024'
+                year: '2024',
+                image: '/imgs/hp.png'
               },
               {
-                title: 'Community Builder',
-                description: 'Outstanding contribution to open source and developer communities',
+                title: 'MICROSOFT LEARN CHALLENGE BUILD EDITION',
+                description: 'During the Microsoft Learn Challenge Build Edition in June',
                 icon: '🏆',
                 gradient: 'linear-gradient(135deg, #FF6B6B, #FFD93D, #6BCB77)',
-                year: '2024'
-              },
+                year: '2024',
+                image: '/imgs/challenge.png'
+              }
             ].map((badge, index) => (
               <Box
                 key={index}
@@ -686,7 +689,11 @@ const AnimatedAbout = () => {
                       height: 120,
                     },
                     '& .badge-icon': {
-                      transform: 'rotate(15deg) scale(1.1)',
+                      transform: 'scale(1.05)',
+                      boxShadow: '0 12px 36px rgba(0, 0, 0, 0.3)',
+                      '& img': {
+                        transform: 'scale(1.05)',
+                      }
                     },
                   }
                 }}
@@ -694,13 +701,50 @@ const AnimatedAbout = () => {
                 <Box
                   className="badge-icon"
                   sx={{
-                    fontSize: '4rem',
-                    mb: 2,
+                    position: 'relative',
+                    width: '100%',
+                    height: 250,
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    mb: 3,
+                    background: badge.gradient,
+                    border: '2px solid rgba(255, 255, 255, 0.3)',
                     transition: 'transform 0.4s ease',
-                    textAlign: 'center',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                   }}
                 >
-                  {badge.icon}
+                  <Box
+                    component="img"
+                    src={badge.image}
+                    alt={badge.title}
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                    sx={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'contain',
+                      borderRadius: '14px',
+                      transition: 'transform 0.4s ease',
+                    }}
+                  />
+                  <Box
+                    sx={{
+                      display: 'none',
+                      width: '100%',
+                      height: '100%',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      background: badge.gradient,
+                    }}
+                  >
+                    <Typography variant="h1" sx={{ color: 'white', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))' }}>
+                      {badge.icon}
+                    </Typography>
+                  </Box>
                 </Box>
                 <Typography variant="h5" sx={{ 
                   mb: 2, 
