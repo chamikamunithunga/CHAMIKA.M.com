@@ -3,18 +3,11 @@ import {
   Box,
   Container,
   Typography,
-  Link,
   IconButton,
   useTheme,
   Divider,
 } from '@mui/material';
-import {
-  GitHub,
-  LinkedIn,
-  Twitter,
-  Email,
-  ArrowUpward,
-} from '@mui/icons-material';
+import { GitHub, LinkedIn, Email, ArrowUpward } from '@mui/icons-material';
 
 const Footer = () => {
   const theme = useTheme();
@@ -33,7 +26,15 @@ const Footer = () => {
       }}
     >
       <Container maxWidth="lg" sx={{ py: 6 }}>
-        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4, justifyContent: 'space-between' }}>
+        {/* Top Section */}
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: 4,
+            justifyContent: 'space-between',
+          }}
+        >
           <Box sx={{ flex: { xs: '100%', md: '1' }, minWidth: { md: '300px' } }}>
             <Typography
               variant="h5"
@@ -71,25 +72,17 @@ const Footer = () => {
               >
                 <LinkedIn />
               </IconButton>
-              
-              <IconButton
-                color="primary"
-                component="a"
-                href="mailto:munithungac@gmail.com"
-              >
+              <IconButton color="primary" component="a" href="mailto:munithungac@gmail.com">
                 <Email />
               </IconButton>
             </Box>
           </Box>
-          
-          
-          
-          
-          
-          
-        
+        </Box>
+
+        {/* Divider */}
         <Divider sx={{ my: 4 }} />
-        
+
+        {/* Bottom Section */}
         <Box
           sx={{
             display: 'flex',
@@ -100,12 +93,12 @@ const Footer = () => {
           }}
         >
           <Typography variant="body2" color="text.secondary">
-            © 2025 CHAMIKA.M . All rights reserved.
+            © 2025 CHAMIKA.M. All rights reserved.
           </Typography>
-          
-          
+        </Box>
       </Container>
-      
+
+      {/* Scroll to Top Button */}
       <IconButton
         onClick={scrollToTop}
         sx={{
