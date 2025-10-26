@@ -158,24 +158,7 @@ const Footer = () => {
             © 2025 CHAMIKA.M . All rights reserved.
           </Typography>
           
-          <Box sx={{ display: 'flex', gap: 1 }}>
-            <Link href="#" color="text.secondary" underline="hover" variant="body2">
-              Terms
-            </Link>
-            <Typography variant="body2" color="text.secondary">
-              •
-            </Typography>
-            <Link href="#" color="text.secondary" underline="hover" variant="body2">
-              Privacy
-            </Link>
-            <Typography variant="body2" color="text.secondary">
-              •
-            </Typography>
-            <Link href="#" color="text.secondary" underline="hover" variant="body2">
-              Cookies
-            </Link>
-          </Box>
-        </Box>
+          
       </Container>
       
       <IconButton
