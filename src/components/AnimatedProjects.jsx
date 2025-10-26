@@ -44,7 +44,7 @@ const AnimatedProjects = () => {
     {
       title: "Ashvini Diving – Explore Sri Lanka’s Underwater Wonders",
       description: "A captivating and elegant React-based website dedicated to showcasing the breathtaking underwater landscapes of Sri Lanka through the eyes of Sri Lanka’s first female Dive Master.",
-      image: "public/imgs/p2.png",
+      image: "/imgs/p2.png",
       technologies: ["React", "css3", "AOS", "Vite"],
       type: "Web Application",
       github: "https://github.com/chamikamunithunga/Ashvini",
@@ -54,7 +54,7 @@ const AnimatedProjects = () => {
     {
       title: "AIInsight Engine - Intelligent AI Trend Tracker",
       description: "Track the latest AI research papers, frameworks, and models in real-time. AIInsight Engine automatically scrapes arXiv, Hugging Face, and AI blogs, intelligently categorizes trends, and delivers insights through a beautiful interactive dashboard",
-      image: "public/imgs/p3.png",
+      image: "/imgs/p3.png",
       technologies: ["Python", "Streamlit ", "BeautifulSoup", "Transformers"],
       type: "web Application",
       github: "https://github.com/chamikamunithunga/AiInsight-Engine",
@@ -64,7 +64,7 @@ const AnimatedProjects = () => {
     {
       title: "ToniT – AI-Powered Cocktail Recommender ",
       description: "ToniT captures your mood and flavor preferences, then taps into the Gemini API by Google to generate creative, curated cocktail recommendations tailored just for you.",
-      image: "public/imgs/p4.png",
+      image: "/imgs/p4.png",
       technologies: ["React", "Material-UI", "Node.js", "Gemini’s generative model"],
       type: "Website",
       github: "#",
@@ -74,7 +74,7 @@ const AnimatedProjects = () => {
     {
       title: "Blockchain Front-End Development",
       description: "Real-time chat application with group messaging, file sharing, and emoji reactions built with modern web technologies.",
-      image: "public/imgs/p5.png",      
+      image: "/imgs/p5.png",      
       technologies: ["Socket.io", "React", "Web3", "Material-UI"],
       type: "Web Application",
       github: "#",
@@ -84,7 +84,7 @@ const AnimatedProjects = () => {
     {
       title: "TuskerOne.AI",
       description: "A groundbreaking system designed to protect Sri Lanka’s villages and farmlands from the risks posed by wild elephants. Powered by Lankan Travalester",
-      image: "public/imgs/p6.png", 
+      image: "/imgs/p6.png", 
       technologies: ["React", "Satcom", "python", "Docker"],
       type: "Ai Application",
       github: "#",
@@ -94,7 +94,7 @@ const AnimatedProjects = () => {
     {
       title: "TrunkTracker: Wild Elephant Detection System Using Satellite Data",
       description: "This project utilizes advanced satellite imagery and geospatial data to track and monitor elephant movements near human-populated areas, providing valuable insights to protect both wildlife and communities.",
-      image: "public/imgs/p7.png",       
+      image: "/imgs/p7.png",       
       technologies: ["react", "Firebase", "python", "Satcom"],
       type: "Ai Application",
       github: "#",
@@ -104,7 +104,7 @@ const AnimatedProjects = () => {
     {
       title: "Satellite Data Summarizer ",
       description: "Satellite Data Summarizer – A Sub-Project of My Wild Elephant Detection System Using AI-Powered Satellite Imagery Analysis.",
-      image: "public/imgs/p8.png",      
+      image: "/imgs/p8.png",      
       technologies: ["Python", "TensorFlow", "NLP", "OpenAI"],
       type: "AI Application",
       github: "#",
@@ -114,7 +114,7 @@ const AnimatedProjects = () => {
     {
       title: "Feather Frame",
       description: "AI birding that blends computer vision with a social field journal & social networking platform with posts, comments, likes, and real-time notifications.",
-      image: "public/imgs/p9.png",      
+      image: "/imgs/p9.png",      
       technologies: ["React+ vite", "Express", "MUI", "firebase"],
       type: "Ai Application",
       github: "#",
