@@ -46,7 +46,7 @@ const Footer = () => {
                 mb: 2,
               }}
             >
-              Modern Web
+              CHAMIKA.M
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
               Building the future of web development with modern technologies,
@@ -56,7 +56,7 @@ const Footer = () => {
               <IconButton
                 color="primary"
                 component="a"
-                href="https://github.com"
+                href="https://github.com/chamikamunithunga"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,25 +65,17 @@ const Footer = () => {
               <IconButton
                 color="primary"
                 component="a"
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/chamika-munithunga-74801a2b1/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <LinkedIn />
               </IconButton>
+              
               <IconButton
                 color="primary"
                 component="a"
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Twitter />
-              </IconButton>
-              <IconButton
-                color="primary"
-                component="a"
-                href="mailto:contact@example.com"
+                href="mailto:munithungac@gmail.com"
               >
                 <Email />
               </IconButton>
@@ -163,7 +155,7 @@ const Footer = () => {
           }}
         >
           <Typography variant="body2" color="text.secondary">
-            © 2024 Modern Web. All rights reserved.
+            © 2025 CHAMIKA.M . All rights reserved.
           </Typography>
           
           <Box sx={{ display: 'flex', gap: 1 }}>
