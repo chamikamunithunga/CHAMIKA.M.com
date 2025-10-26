@@ -150,9 +150,9 @@ const AnimatedHome = () => {
           >
             Hi, I'm a
             <br />
-            <span style={{ color: '#90caf9' }}>Full Stack</span>
+            <span style={{ color: '#90caf9' }}>CHAMIKA</span>
             <br />
-            Developer
+            MUNITHUNGA..
           </Typography>
 
           <Typography
