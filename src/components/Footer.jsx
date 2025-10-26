@@ -82,66 +82,11 @@ const Footer = () => {
             </Box>
           </Box>
           
-          <Box sx={{ minWidth: { xs: '150px', sm: '200px' } }}>
-            <Typography variant="h6" sx={{ mb: 2, fontWeight: 600 }}>
-              Product
-            </Typography>
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-              <Link href="#" color="text.secondary" underline="hover">
-                Features
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Pricing
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Documentation
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                API
-              </Link>
-            </Box>
-          </Box>
           
-          <Box sx={{ minWidth: { xs: '150px', sm: '200px' } }}>
-            <Typography variant="h6" sx={{ mb: 2, fontWeight: 600 }}>
-              Company
-            </Typography>
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-              <Link href="#" color="text.secondary" underline="hover">
-                About
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Blog
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Careers
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Contact
-              </Link>
-            </Box>
-          </Box>
           
-          <Box sx={{ minWidth: { xs: '150px', sm: '200px' } }}>
-            <Typography variant="h6" sx={{ mb: 2, fontWeight: 600 }}>
-              Support
-            </Typography>
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-              <Link href="#" color="text.secondary" underline="hover">
-                Help Center
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Community
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Status
-              </Link>
-              <Link href="#" color="text.secondary" underline="hover">
-                Privacy
-              </Link>
-            </Box>
-          </Box>
-        </Box>
+          
+          
+          
         
         <Divider sx={{ my: 4 }} />
         
