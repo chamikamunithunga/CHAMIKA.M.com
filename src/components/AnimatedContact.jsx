@@ -35,27 +35,27 @@ const AnimatedContact = () => {
     {
       icon: <Email />,
       title: "Email",
-      content: "hello@yourname.com",
+      content: "munithungac@gmail.com",
       color: theme.palette.primary.main,
     },
     {
       icon: <Phone />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
+      content: "+94 74 1463230",
       color: theme.palette.secondary.main,
     },
     {
       icon: <LocationOn />,
       title: "Location",
-      content: "San Francisco, CA",
+      content: "Colombo, Sri Lanka",
       color: theme.palette.success.main,
     },
   ];
 
   const socialLinks = [
-    { icon: <GitHub />, label: "GitHub", color: "#333", href: "#" },
-    { icon: <LinkedIn />, label: "LinkedIn", color: "#0077b5", href: "#" },
-    { icon: <Twitter />, label: "Twitter", color: "#1da1f2", href: "#" },
+    { icon: <GitHub />, label: "GitHub", color: "#333", href: "https://github.com/chamikamunithunga" },
+    { icon: <LinkedIn />, label: "LinkedIn", color: "#0077b5", href: "https://www.linkedin.com/in/chamika-munithunga-74801a2b1/" },
+    
   ];
 
   useEffect(() => {
