@@ -34,7 +34,7 @@ const AnimatedProjects = () => {
     {
       title: "FeatherFrame - Bird Identification System",
       description: "AI-powered bird identification and social platform for bird enthusiasts. Features real-time bird detection, species identification, community sharing, and detailed insights for discovering local and rare birds.",
-      image: "public/imgs/p1.png",
+      image: "public/imgs/c1.png",
       technologies: ["AI/ML", "Computer Vision", "React", "Python", "TensorFlow"],
       type: "AI Application",
       github: "https://github.com/chamikamunithunga/Bird-Identification-and-Detection-System-Using-Ai",
