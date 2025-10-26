@@ -618,26 +618,26 @@ const AnimatedAbout = () => {
               {
                 title: 'Microsoft Learn Student Ambassador',
                 description: 'Recognized for leadership and technical excellence in the developer community',
-                icon: '🌟',
+                
                 gradient: 'linear-gradient(135deg, #0078D4, #1E88E5, #42A5F5)',
                 year: '2024',
-                image: '/imgs/mlsa.png'
+                image: '/imgs/b1.png'
               },
               {
                 title: 'HP LIFE Ambassador',
                 description: 'Leading technology training and community building on HP',
-                icon: '⭐',
+                
                 gradient: 'linear-gradient(135deg, #181717, #2F1E1E, #423B39)',
                 year: '2024',
-                image: '/imgs/hp.png'
+                image: '/imgs/b2.png'
               },
               {
                 title: 'MICROSOFT LEARN CHALLENGE BUILD EDITION',
                 description: 'During the Microsoft Learn Challenge Build Edition in June',
-                icon: '🏆',
+                
                 gradient: 'linear-gradient(135deg, #FF6B6B, #FFD93D, #6BCB77)',
                 year: '2024',
-                image: '/imgs/challenge.png'
+                image: '/imgs/b3.png'
               }
             ].map((badge, index) => (
               <Box
