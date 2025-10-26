@@ -152,7 +152,7 @@ const AnimatedHome = () => {
             <br />
             <span style={{ color: '#90caf9' }}>CHAMIKA</span>
             <br />
-            MUNITHUNGA..
+            MUNITHUNGA
           </Typography>
 
           <Typography
