@@ -110,7 +110,7 @@ const AnimatedAbout = () => {
           </Box>
           <Box sx={{ flex: 1, minWidth: { xs: '100%', md: '400px' }, pl: { xs: 0, md: 4 }, px: { xs: 2, md: 0 } }}>
             <Typography variant="h3" sx={{ mb: 4, fontWeight: 700, color: theme.palette.primary.main, textShadow: '2px 2px 4px rgba(0,0,0,0.1)', fontSize: { xs: '2rem', md: '3rem' } }}>
-              Hi, I'm a Ai and ML Developer
+              Hi, I'm a AI and ML Developer
             </Typography>
             <Typography variant="h6" sx={{ mb: 4, fontSize: { xs: '1rem', md: '1.3rem' }, lineHeight: 1.9, color: theme.palette.text.primary, fontWeight: 500, letterSpacing: '0.5px' }}>
               I'm a passionate and innovative Ai and ML Developer with over 2+ years of experience 
