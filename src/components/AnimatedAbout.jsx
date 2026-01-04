@@ -113,7 +113,7 @@ const AnimatedAbout = () => {
               Hi, I'm a Full Stack Developer
             </Typography>
             <Typography variant="h6" sx={{ mb: 4, fontSize: { xs: '1rem', md: '1.3rem' }, lineHeight: 1.9, color: theme.palette.text.primary, fontWeight: 500, letterSpacing: '0.5px' }}>
-              I'm a passionate and innovative Full Stack Developer with over 2+ years of experience 
+              I'm a passionate and innovative Ai and ML Developer with over 2+ years of experience 
               crafting exceptional digital solutions that drive real-world impact. My expertise lies 
               in architecting and building scalable, high-performance applications using cutting-edge 
               technologies and modern development practices.
